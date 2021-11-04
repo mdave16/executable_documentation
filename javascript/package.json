@@ -1,0 +1,12 @@
+{
+  "name": "executable_documentation",
+  "version": "1.0.0",
+  "description": "Template for executable documentation style scripts",
+  "main": "template.js",
+  "repository": "https://github.com/mdave16/executable_documentation",
+  "author": "mdave16",
+  "license": "MIT",
+  "dependencies": {
+    "readline-sync": "^1.4.10"
+  }
+}
