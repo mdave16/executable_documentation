@@ -37,7 +37,7 @@ const sendPrivateKey = email => {
 username = process.argv[2]
 createSshKeypair(username)
 gitCommit(username)
-waitForBuild
+waitForBuild()
 email = retrieveUserEmail(username)
 sendPrivateKey(email)
 console.log("Done.")
